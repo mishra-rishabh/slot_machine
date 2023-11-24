@@ -1,0 +1,14 @@
+{
+  "name": "slot_machine",
+  "version": "1.0.0",
+  "description": "A slot machine project based on javascript\r in this project you gonna deposit some money, let's say ₹100 or ₹500 and you gonna spin the slot machine by betting on a certain number of lines.\r it is a terminal based application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
