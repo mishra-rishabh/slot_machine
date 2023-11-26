@@ -115,7 +115,7 @@ function printSlotMachine(rows) {
 }
 
 function getWinnings(rows, bettingAmount, linesToBetOn) {
-    let wiinings = 0;
+    let winnings = 0;
 
     for(let row = 0; row < linesToBetOn; row++) {
         const symbols = rows[row];
@@ -129,11 +129,11 @@ function getWinnings(rows, bettingAmount, linesToBetOn) {
         }
 
         if(allSame) {
-            wiinings += bettingAmount * SYMBOL_VALUES[symbols[0]];
+            winnings += bettingAmount * SYMBOL_VALUES[symbols[0]];
         }
     }
 
-    return wiinings;
+    return winnings;
 }
 
 const game = () => {
